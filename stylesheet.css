@@ -215,6 +215,7 @@ ul{
     flex-direction: column;
 }
 .experiencesContent img{
+    display:block;
     width:200px;
     height:200px;
     margin:15px 50px 0 0;
@@ -233,14 +234,29 @@ ul{
     
 }
 .experiencesContent ul{
-    width:650px;
+    width:1000px;
     height:300px;
     list-style-type:none;
     border:2px solid white;
     border-radius:25px;
     line-height:5;
     text-align: justify;
-    margin: 50px 100px 0 620px;
+    margin:50px 0 50px 280px;
+    padding:20px;
+}
+.experiencesContent img:hover{
+    transform: scale(1.020);
+    transition: transform 0.050ms;
+}
+.experiencesContent p:hover{
+    transform:scale(1.020);
+    transition: transform 0.050ms;
+
+}
+.experiencesContent ul:hover
+{
+    transform: scale(1.020);
+    transition: transform 0.050ms;
 }
 #contactme h6{
 
@@ -273,5 +289,4 @@ footer h7{
     border:2px solid white;
     margin:50px 0 0 0;
         
-
 }
